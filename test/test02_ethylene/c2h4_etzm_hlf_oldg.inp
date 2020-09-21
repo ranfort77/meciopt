@@ -1,0 +1,73 @@
+# MECIOPT INPUT TEMPLET
+# This input file is run in meciopt script via the 'exec' command, 
+# so the variables defined in this input file are equivalent  
+# the variables in meciopt.
+# The option values are case-sensitive.
+# ---------------------------------------------------------------------
+# Optimization options (str): 'PF'
+OPTMTD = 'PF' 
+LINESEARCH = 'HALFSTEP'
+PF_ALPHA = 3.50
+PF_BETA = 0.02
+PF_MAXCYC = 40
+THRESH_STEP = 1.0e-6
+THRESH_GRAD = 0.005
+THRESH_EGAP = 0.001
+NEWG = 'OLDG'
+# update method of G matrix (str): 'BFGS', 'MS'
+UPDATEG = 'BFGS' 
+# Optimization coordinates (str): 'XYZ', 'Z-matrix'
+OPTCOORD = 'XYZ' 
+# ---------------------------------------------------------------------
+# molpro single point energy input (str)
+INPSTR = '''***,ethy
+memory,128,m
+
+basis=avdz
+
+symmetry,nosym
+geometry={
+C
+C 1 RCC
+H 1 R1 2 A1 
+H 1 R2 2 A2 3 D1
+H 2 R3 1 A3 3 D2
+H 1 R4 2 A4 3 D3
+}
+RCC=1.436 ang
+R1=1.077 ang
+A1=114.9 degree
+R2=1.077 ang
+A2=115.1 degree
+D1=-125.8 degree
+R3=1.061 ang
+A3=155.2 degree
+D2=-117.1 degree
+R4=1.100 ang
+A4=106.2 degree
+D3=117.1 degree
+
+{hf;occ,8;wf,16,1,0}
+
+{multi,maxit=30;
+    closed,7;
+    occ,9;
+    wf,16,1,0;state,3}
+
+{ci;wf,16,1,0;state,3}
+
+
+---
+'''
+# ---------------------------------------------------------------------
+# IDXUPP = index of Upper-state,  IDXLOW = index of Lower-state (int)
+IDXLOW = 1
+IDXUPP = 2
+# numerical difference delta R in bohr (float)
+DIFDR = 0.01 
+# print option (int)
+#   1 : print until vectors (ex. F, R ...)
+#   2 : print until matries (ex. G, P ...)
+#   3 : print until system massage
+PRINT = 1 
+

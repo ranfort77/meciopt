@@ -1,0 +1,62 @@
+# MECIOPT INPUT TEMPLET
+# This input file is run in meciopt script via the 'exec' command, 
+# so the variables defined in this input file are equivalent  
+# the variables in meciopt.
+# The option values are case-sensitive.
+# ---------------------------------------------------------------------
+PRINT = 1
+# Optimization options (str): 'PF'
+OPTMTD = 'PF' 
+LINESEARCH = 'HALFSTEP'
+PF_ALPHA = 3.50
+PF_BETA = 0.02
+PF_MAXCYC = 30
+THRESH_STEP = 1.0e-6
+THRESH_GRAD = 0.005
+THRESH_EGAP = 0.0005
+NEWG = 'OLDG'
+# update method of G matrix (str): 'BFGS', 'MS'
+UPDATEG = 'BFGS' 
+# Optimization coordinates (str): 'XYZ', 'Z-matrix'
+OPTCOORD = 'XYZ' 
+# ---------------------------------------------------------------------
+# molpro single point energy input (str)
+INPSTR = '''***,h2s
+memory,128,m
+
+basis = avdz
+
+symmetry,x
+geometry={
+S
+Q 1 LR
+H 2 HSR 1 GM
+H 2 HSR 1 GMM 3 DD}
+
+LR = 1.7710 bohr
+SR = 3.6690 bohr
+HSR = SR/2
+GM = 90.0 degree
+GMM = 180 - GM
+DD = 180.0 degree
+
+{hf;occ,7,2;wf,18,1,0}
+
+{multi,maxit=30;
+    closed,4,1;
+      occ,10,2;
+    wf,18,2,0;state,2;weight,0.55,0.45;
+    wf,18,1,0;state,1;weight,0.55}
+
+{ci;wf,18,2,0;state,2}
+
+---
+'''
+# ---------------------------------------------------------------------
+# IDXUPP = index of Upper-state,  IDXLOW = index of Lower-state (int)
+IDXLOW = 1
+IDXUPP = 2
+# numerical difference delta R in bohr (float)
+DIFDR = 0.01 
+
+

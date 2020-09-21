@@ -1,0 +1,28 @@
+***,h2s
+memory,128,m
+
+basis=6-31g*
+
+symmetry,x
+geometry={
+S
+Q 1 LR
+H 2 HSR 1 GM
+H 2 HSR 1 GMM 3 DD}
+
+LR = 1.9989 bohr
+SR = 4.2904 bohr
+HSR = SR/2
+GM = 90.0 degree
+GMM = 180 - GM
+DD = 180.0 degree
+
+{hf;occ,7,2;wf,18,1,0}
+
+{multi;
+    closed,4,1;
+      occ,10,2;
+    wf,18,2,2;state,2;weight,0.55,0.45;
+    wf,18,2,0;state,2;weight,0.55,0.45;
+    wf,18,1,0;state,1;weight,0.55}
+---

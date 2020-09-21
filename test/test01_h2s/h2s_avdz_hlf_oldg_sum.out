@@ -1,0 +1,255 @@
+     1 basis functions,     1 primitive gaussians,     1 cartesian basis functions
+     1 alpha electrons        1 beta electrons
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+                         Standard orientation:
+ ---------------------------------------------------------------------
+ Center     Atomic     Atomic              Coordinates (Angstroms)
+ Number     Number      Type              X           Y           Z
+ ---------------------------------------------------------------------
+    1         16             0        0.000000    0.000000   -0.055442
+    2          1             0        0.000000    0.970776    0.881731
+    3          1             0        0.000000   -0.970776    0.881731
+ ---------------------------------------------------------------------
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+ Step number   1
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+                         Standard orientation:
+ ---------------------------------------------------------------------
+ Center     Atomic     Atomic              Coordinates (Angstroms)
+ Number     Number      Type              X           Y           Z
+ ---------------------------------------------------------------------
+    1         16             0        0.000000    0.000000   -0.105129
+    2          1             0        0.000000    0.978425    0.906493
+    3          1             0        0.000000   -0.978425    0.906493
+ ---------------------------------------------------------------------
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+ Step number   2
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+                         Standard orientation:
+ ---------------------------------------------------------------------
+ Center     Atomic     Atomic              Coordinates (Angstroms)
+ Number     Number      Type              X           Y           Z
+ ---------------------------------------------------------------------
+    1         16             0        0.000000    0.000000   -0.106549
+    2          1             0        0.000000    0.983475    0.907512
+    3          1             0        0.000000   -0.983475    0.907512
+ ---------------------------------------------------------------------
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+ Step number   3
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+                         Standard orientation:
+ ---------------------------------------------------------------------
+ Center     Atomic     Atomic              Coordinates (Angstroms)
+ Number     Number      Type              X           Y           Z
+ ---------------------------------------------------------------------
+    1         16             0        0.000000    0.000000   -0.110621
+    2          1             0        0.000000    1.021849    0.911627
+    3          1             0        0.000000   -1.021849    0.911627
+ ---------------------------------------------------------------------
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+ Step number   4
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+                         Standard orientation:
+ ---------------------------------------------------------------------
+ Center     Atomic     Atomic              Coordinates (Angstroms)
+ Number     Number      Type              X           Y           Z
+ ---------------------------------------------------------------------
+    1         16             0        0.000000    0.000000   -0.113051
+    2          1             0        0.000000    1.076956    0.915998
+    3          1             0        0.000000   -1.076956    0.915998
+ ---------------------------------------------------------------------
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+ Step number   5
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+                         Standard orientation:
+ ---------------------------------------------------------------------
+ Center     Atomic     Atomic              Coordinates (Angstroms)
+ Number     Number      Type              X           Y           Z
+ ---------------------------------------------------------------------
+    1         16             0        0.000000    0.000000   -0.115001
+    2          1             0        0.000000    1.096206    0.918843
+    3          1             0        0.000000   -1.096206    0.918843
+ ---------------------------------------------------------------------
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+ Step number   6
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+                         Standard orientation:
+ ---------------------------------------------------------------------
+ Center     Atomic     Atomic              Coordinates (Angstroms)
+ Number     Number      Type              X           Y           Z
+ ---------------------------------------------------------------------
+    1         16             0        0.000000    0.000000   -0.118156
+    2          1             0        0.000000    1.106139    0.921164
+    3          1             0        0.000000   -1.106139    0.921164
+ ---------------------------------------------------------------------
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+ Step number   7
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+                         Standard orientation:
+ ---------------------------------------------------------------------
+ Center     Atomic     Atomic              Coordinates (Angstroms)
+ Number     Number      Type              X           Y           Z
+ ---------------------------------------------------------------------
+    1         16             0        0.000000    0.000000   -0.122150
+    2          1             0        0.000000    1.114185    0.923886
+    3          1             0        0.000000   -1.114185    0.923886
+ ---------------------------------------------------------------------
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+ Step number   8
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+                         Standard orientation:
+ ---------------------------------------------------------------------
+ Center     Atomic     Atomic              Coordinates (Angstroms)
+ Number     Number      Type              X           Y           Z
+ ---------------------------------------------------------------------
+    1         16             0        0.000000    0.000000   -0.126061
+    2          1             0        0.000000    1.118795    0.926585
+    3          1             0        0.000000   -1.118795    0.926585
+ ---------------------------------------------------------------------
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+ Step number   9
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+                         Standard orientation:
+ ---------------------------------------------------------------------
+ Center     Atomic     Atomic              Coordinates (Angstroms)
+ Number     Number      Type              X           Y           Z
+ ---------------------------------------------------------------------
+    1         16             0        0.000000    0.000000   -0.127036
+    2          1             0        0.000000    1.119141    0.927973
+    3          1             0        0.000000   -1.119141    0.927973
+ ---------------------------------------------------------------------
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+ Step number  10
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+                         Standard orientation:
+ ---------------------------------------------------------------------
+ Center     Atomic     Atomic              Coordinates (Angstroms)
+ Number     Number      Type              X           Y           Z
+ ---------------------------------------------------------------------
+    1         16             0        0.000000    0.000000   -0.127077
+    2          1             0        0.000000    1.119308    0.929108
+    3          1             0        0.000000   -1.119308    0.929108
+ ---------------------------------------------------------------------
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+ Step number  11
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+                         Standard orientation:
+ ---------------------------------------------------------------------
+ Center     Atomic     Atomic              Coordinates (Angstroms)
+ Number     Number      Type              X           Y           Z
+ ---------------------------------------------------------------------
+    1         16             0        0.000000    0.000000   -0.126146
+    2          1             0        0.000000    1.119533    0.929472
+    3          1             0        0.000000   -1.119533    0.929472
+ ---------------------------------------------------------------------
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+ Step number  12
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+                         Standard orientation:
+ ---------------------------------------------------------------------
+ Center     Atomic     Atomic              Coordinates (Angstroms)
+ Number     Number      Type              X           Y           Z
+ ---------------------------------------------------------------------
+    1         16             0        0.000000    0.000000   -0.119527
+    2          1             0        0.000000    1.120719    0.934527
+    3          1             0        0.000000   -1.120719    0.934527
+ ---------------------------------------------------------------------
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+ Step number  13
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+                         Standard orientation:
+ ---------------------------------------------------------------------
+ Center     Atomic     Atomic              Coordinates (Angstroms)
+ Number     Number      Type              X           Y           Z
+ ---------------------------------------------------------------------
+    1         16             0        0.000000    0.000000   -0.115038
+    2          1             0        0.000000    1.122557    0.939657
+    3          1             0        0.000000   -1.122557    0.939657
+ ---------------------------------------------------------------------
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+ Step number  14
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+                         Standard orientation:
+ ---------------------------------------------------------------------
+ Center     Atomic     Atomic              Coordinates (Angstroms)
+ Number     Number      Type              X           Y           Z
+ ---------------------------------------------------------------------
+    1         16             0        0.000000    0.000000   -0.111557
+    2          1             0        0.000000    1.124459    0.944624
+    3          1             0        0.000000   -1.124459    0.944624
+ ---------------------------------------------------------------------
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+ Step number  15
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+                         Standard orientation:
+ ---------------------------------------------------------------------
+ Center     Atomic     Atomic              Coordinates (Angstroms)
+ Number     Number      Type              X           Y           Z
+ ---------------------------------------------------------------------
+    1         16             0        0.000000    0.000000   -0.086042
+    2          1             0        0.000000    1.131492    0.976193
+    3          1             0        0.000000   -1.131492    0.976193
+ ---------------------------------------------------------------------
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+ Step number  16
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+                         Standard orientation:
+ ---------------------------------------------------------------------
+ Center     Atomic     Atomic              Coordinates (Angstroms)
+ Number     Number      Type              X           Y           Z
+ ---------------------------------------------------------------------
+    1         16             0        0.000000    0.000000   -0.085274
+    2          1             0        0.000000    1.131654    0.977103
+    3          1             0        0.000000   -1.131654    0.977103
+ ---------------------------------------------------------------------
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+ Step number  17
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+
+ Normal termination of Gaussian 09
+
+
+
+ Summary Table 1
+   k           Sigma        Gamma               L            P     alpha      beta
+   1   -398.64615565   0.00677849   -398.64015016   0.00171585    3.5000    0.0200
+   2   -398.65566747   0.00205510   -398.65499724   0.00019149    3.5000    0.0200
+   3   -398.65618654   0.00226610   -398.65537934   0.00023063    3.5000    0.0200
+   4   -398.65854283   0.00237522   -398.65766034   0.00025214    3.5000    0.0200
+   5   -398.65997369   0.00081856   -398.65986104   0.00003218    3.5000    0.0200
+   6   -398.66022260   0.00017622   -398.66021721   0.00000154    3.5000    0.0200
+   7   -398.66037432   0.00006410   -398.66037360   0.00000020    3.5000    0.0200
+   8   -398.66050774   0.00014919   -398.66050387   0.00000110    3.5000    0.0200
+   9   -398.66061844   0.00043307   -398.66058631   0.00000918    3.5000    0.0200
+  10   -398.66066377   0.00062192   -398.66059812   0.00001876    3.5000    0.0200
+  11   -398.66068540   0.00071585   -398.66059883   0.00002474    3.5000    0.0200
+  12   -398.66067175   0.00064858   -398.66052914   0.00002037    7.0000    0.0200
+  13   -398.66062749   0.00042212   -398.66056641   0.00000873    7.0000    0.0200
+  14   -398.66061985   0.00034757   -398.66057829   0.00000594    7.0000    0.0200
+  15   -398.66062605   0.00034266   -398.66058565   0.00000577    7.0000    0.0200
+  16   -398.66063449   0.00035860   -398.66059027   0.00000632    7.0000    0.0200
+  17   -398.66063437   0.00035804   -398.66059029   0.00000630    7.0000    0.0200
+
+
+ Summary Table 2
+   k       |p(k)|      |dR(k)|      steplen #LS         para         perp            step         egap     ?para     ?perp     ?step     ?egap
+   1   0.23335252   0.11667626   0.50000000   1   0.06544279   0.04460503   -398.64015016   0.00677849     False     False     False     False
+   2   0.02805685   0.01402842   0.50000000   1  -0.00337586   0.02666273     -0.01484708   0.00205510      True     False     False     False
+   3   0.20685783   0.10342891   0.50000000   1  -0.00155608   0.02542403     -0.00038210   0.00226610      True     False     False     False
+   4   0.29560814   0.14780407   0.50000000   1   0.00265884   0.01832716     -0.00228100   0.00237522      True     False     False     False
+   5   0.10427156   0.05213578   0.50000000   1  -0.00250854   0.00951026     -0.00220070   0.00081856      True     False     False     False
+   6   0.05581175   0.02790587   0.50000000   1  -0.00568710   0.00635978     -0.00035617   0.00017622     False     False     False      True
+   7   0.04783846   0.02391923   0.50000000   1  -0.00529858   0.00372829     -0.00015639   0.00006410     False      True     False      True
+   8   0.03215388   0.01607694   0.50000000   1  -0.00432168   0.00344818     -0.00013027   0.00014919      True      True     False      True
+   9   0.00849017   0.00424508   0.50000000   1  -0.00196915   0.00370543     -0.00008244   0.00043307      True      True     False      True
+  10   0.00613412   0.00306706   0.50000000   1  -0.00061964   0.00289526     -0.00001181   0.00062192      True      True     False     False
+  11   0.00419796   0.00209898   0.50000000   1  -0.00004481   0.00240962     -0.00000070   0.00071585      True      True      True     False
+  12   0.03736060   0.01868030   0.50000000   1   0.00145429   0.00273141     -0.00001690   0.00064858      True      True     False     False
+  13   0.03370900   0.01685450   0.50000000   1  -0.00002545   0.00361887     -0.00003727   0.00042212      True      True     False      True
+  14   0.03132559   0.01566280   0.50000000   1  -0.00058055   0.00343270     -0.00001187   0.00034757      True      True     False      True
+  15   0.19794866   0.09897433   0.50000000   1  -0.00054560   0.00343642     -0.00000736   0.00034266      True      True     False      True
+  16   2.93272946   0.00286399   0.00097656  10  -0.00016293   0.00388851     -0.00000463   0.00035860      True      True     False      True
+  17   0.00000000   0.00000000   0.00000000   0  -0.00015820   0.00390280     -0.00000002   0.00035804      True      True      True      True
+
+

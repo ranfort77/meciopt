@@ -1,0 +1,242 @@
+
+ Primary working directories    : /work/tmp/ahs/molpro_6937
+ Secondary working directories  : /work/tmp/ahs/molpro_6937
+ Wavefunction directory         : /home/user/ahs/meciopt/orient_tests/
+ Main file repository           : /work/tmp/ahs/molpro_6937/
+
+ SHA1      : 10702993644f36e05297f9f7ccce90cffe774945
+ NAME      : 2015.1.22
+ ARCHNAME  : linux/x86_64
+ FC        : /opt/intel/composer_xe_2015.1.133/bin/intel64/ifort
+ BLASLIB   : -Wl,-_start-group /opt/intel/mkl/lib/intel64/libmkl_intel_ilp64.a /opt/intel/mkl/lib/intel64/libmkl_intel_thread.a /opt/intel/mkl/lib/intel64/libmkl_core.a -Wl,-_end-group
+ id        : gwnuqc
+
+ Nodes     nprocs
+ hpc          1
+
+ Using customized tuning parameters: mindgm=1; mindgv=20; mindgc=4; mindgr=1; noblas=0; minvec=7
+ default implementation of scratch files=df  
+
+ 
+ basis=6-31g*
+ 
+ symmetry,x
+ orient,planexz
+ geometry={
+ S
+ Q 1 LR
+ H 2 HSR 1 GM
+ H 2 HSR 1 GMM 3 DD}
+ 
+ LR = 1.9989 bohr
+ SR = 4.2904 bohr
+ HSR = SR/2
+ GM = 100.0 degree
+ GMM = 180 - GM
+ DD = 180.0 degree
+ 
+ hf
+ 
+
+ Variables initialized (889), CPU time= 0.01 sec
+ Commands  initialized (702), CPU time= 0.00 sec, 572 directives.
+ Default parameters read. Elapsed time= 0.06 sec
+
+ Checking input...
+ Passed
+1
+
+
+                                         ***  PROGRAM SYSTEM MOLPRO  ***
+                                       Copyright, TTI GmbH Stuttgart, 2015
+                                    Version 2015.1 linked Jul  3 2017 13:45:41
+
+
+ **********************************************************************************************************************************
+ LABEL *                                                                                 
+  64 bit serial version                                                                  DATE: 25-Feb-18          TIME: 10:00:50  
+ **********************************************************************************************************************************
+
+ SHA1:             10702993644f36e05297f9f7ccce90cffe774945
+ **********************************************************************************************************************************
+
+ Variable memory set to    8000000 words,  buffer space   230000 words
+
+ SETTING BASIS          =    6-31G*
+ ZSYMEL=X  
+ ZPLANE=XZ
+ 
+ SETTING LR             =         1.99890000  BOHR                            
+ SETTING SR             =         4.29040000  BOHR                            
+ SETTING HSR            =         2.14520000  BOHR                            
+ SETTING GM             =       100.00000000  DEGREE                          
+ SETTING GMM            =        80.00000000  DEGREE                          
+ SETTING DD             =       180.00000000  DEGREE                          
+
+
+ Recomputing integrals since basis changed
+
+
+ Using spherical harmonics
+
+ Library entry S      S 6-31G                selected for orbital group  1
+ Library entry S      P 6-31G                selected for orbital group  1
+ Library entry S      D 6-31G*               selected for orbital group  1
+ Library entry H      S 6-31G                selected for orbital group  2
+
+
+ PROGRAM * SEWARD (Integral evaluation for generally contracted gaussian basis sets)     Author: Roland Lindh, 1990
+
+ Geometry written to block  1 of record 700
+
+ Orientation using atomic masses  
+ Molecule type: Asymmetric top
+ User-specified symmetry elements: X
+ Symmetry elements: X
+ Rotational constants:     107.0745598    178.4558970    267.6902309 GHz  (calculated with average atomic masses)
+
+ Point group  Cs  
+
+
+
+ ATOMIC COORDINATES
+
+ NR  ATOM    CHARGE       X              Y              Z
+
+   1  S      16.00    0.000000000    0.096718723   -0.068037012
+   2  H       1.00    0.000000000   -0.627362710    3.024277831
+   3  H       1.00    0.000000000   -2.449013136   -0.860194062
+
+ Bond lengths in Bohr (Angstrom)
+
+ 1-2  3.175957338  1-3  2.666132684
+     ( 1.680644246)     ( 1.410856658)
+
+ Bond angles
+
+  2-1-3   94.10593951
+
+ NUCLEAR CHARGE:                   18
+ NUMBER OF PRIMITIVE AOS:          60
+ NUMBER OF SYMMETRY AOS:           59
+ NUMBER OF CONTRACTIONS:           22   (  17A'  +   5A"  )
+ NUMBER OF CORE ORBITALS:           5   (   4A'  +   1A"  )
+ NUMBER OF VALENCE ORBITALS:        6   (   5A'  +   1A"  )
+
+
+ NUCLEAR REPULSION ENERGY   11.27213125
+
+ Eigenvalues of metric
+
+         1 0.458E-01 0.127E+00 0.237E+00 0.343E+00 0.365E+00 0.521E+00 0.666E+00 0.759E+00
+         2 0.320E+00 0.945E+00 0.100E+01 0.100E+01 0.173E+01
+
+
+ Contracted 2-electron integrals neglected if value below      1.0D-11
+ AO integral compression algorithm  1   Integral accuracy      1.0D-11
+
+     0.262 MB (compressed) written to integral file (100.0%)
+
+
+ NUMBER OF SORTED TWO-ELECTRON INTEGRALS:      18786.     BUFFER LENGTH:  32768
+ NUMBER OF SEGMENTS:   1  SEGMENT LENGTH:      18786      RECORD LENGTH: 524288
+
+ Memory used in sort:       0.58 MW
+
+ SORT1 READ       23672. AND WROTE       12630. INTEGRALS IN      1 RECORDS. CPU TIME:     0.00 SEC, REAL TIME:     0.00 SEC
+ SORT2 READ       12630. AND WROTE       18786. INTEGRALS IN      1 RECORDS. CPU TIME:     0.01 SEC, REAL TIME:     0.01 SEC
+
+ FILE SIZES:   FILE 1:    19.4 MBYTE,  FILE 4:     4.2 MBYTE,   TOTAL:     23.6 MBYTE
+
+ OPERATOR DM      FOR CENTER  0  COORDINATES:    0.000000    0.000000    0.000000
+
+
+ **********************************************************************************************************************************
+ DATASETS  * FILE   NREC   LENGTH (MB)   RECORD NAMES
+              1      19       19.19       500      610      700      900      950      970     1000      129      960     1100   
+                                          VAR    BASINP    GEOM    SYMINP    ZMAT    AOBASIS   BASIS     P2S    ABASIS      S 
+                                         1400     1410     1200     1210     1080     1600     1650     1300     1700   
+                                           T        V       H0       H01     AOSYM     SMH    MOLCAS    ERIS     OPER   
+
+ PROGRAMS   *        TOTAL       INT
+ CPU TIMES  *         0.18      0.06
+ REAL TIME  *         0.26 SEC
+ DISK USED  *        23.90 MB      
+ **********************************************************************************************************************************
+
+
+ PROGRAM * RHF-SCF (CLOSED SHELL)       Authors: W. Meyer, H.-J. Werner
+
+
+ NUMBER OF ELECTRONS:       9+    9-
+ CONVERGENCE THRESHOLDS:    1.00E-05 (Density)    1.00E-07 (Energy)
+ MAX. NUMBER OF ITERATIONS:       60
+ INTERPOLATION TYPE:            DIIS
+ INTERPOLATION STEPS:              2 (START)      1 (STEP)
+ LEVEL SHIFTS:                  0.00 (CLOSED)  0.00 (OPEN) 
+
+
+
+ Orbital guess generated from atomic densities. Full valence occupancy:    9   2
+
+ Molecular orbital dump at record        2100.2
+
+ Initial occupancy:   7   2
+
+ ITERATION    DDIFF          GRAD             ENERGY        2-EL.EN.            DIPOLE MOMENTS         DIIS   ORB.
+    1      0.000D+00      0.000D+00      -398.59625881    328.467978    0.00000   -1.05060    0.81578    0    start
+    2      0.000D+00      0.124D-01      -398.62010969    325.657268    0.00000   -0.45229    0.22221    1    diag
+    3      0.239D-01      0.442D-02      -398.62220049    326.623735    0.00000   -0.49589    0.25606    2    diag
+    4      0.812D-02      0.107D-02      -398.62245564    326.508111    0.00000   -0.46356    0.20884    3    diag
+    5      0.259D-02      0.236D-03      -398.62246500    326.541164    0.00000   -0.45881    0.20362    4    diag
+    6      0.614D-03      0.377D-04      -398.62246531    326.538035    0.00000   -0.45825    0.20260    5    diag
+    7      0.103D-03      0.730D-05      -398.62246533    326.538506    0.00000   -0.45827    0.20255    6    diag
+    8      0.232D-04      0.979D-06      -398.62246533    326.538424    0.00000   -0.45827    0.20255    7    diag
+    9      0.269D-05      0.198D-06      -398.62246533    326.538427    0.00000   -0.45828    0.20255    0    orth
+
+ Final occupancy:   7   2
+
+ !RHF STATE 1.1 Energy               -398.622465326932
+ Nuclear energy                        11.27213125
+ One-electron energy                 -573.16381011
+ Two-electron energy                  163.26921353
+ Virial quotient                       -1.00053165
+ !RHF STATE 1.1 Dipole moment           0.00000000    -0.45827572     0.20255498
+ Dipole moment /Debye                   0.00000000    -1.16474441     0.51480969
+
+ Orbital energies:
+
+         1.1          2.1          3.1          4.1          5.1          6.1          7.1          8.1          9.1
+    -91.973692    -8.985431    -6.667009    -6.665954    -0.947627    -0.547995    -0.474770     0.090869     0.167441
+
+         1.2          2.2          3.2          4.2
+     -6.663221    -0.386993     0.531978     1.022405
+
+ HOMO      2.2    -0.386993 =     -10.5306eV
+ LUMO      8.1     0.090869 =       2.4727eV
+ LUMO-HOMO         0.477862 =      13.0033eV
+
+
+ **********************************************************************************************************************************
+ DATASETS  * FILE   NREC   LENGTH (MB)   RECORD NAMES
+              1      19       19.19       500      610      700      900      950      970     1000      129      960     1100   
+                                          VAR    BASINP    GEOM    SYMINP    ZMAT    AOBASIS   BASIS     P2S    ABASIS      S 
+                                         1400     1410     1200     1210     1080     1600     1650     1300     1700   
+                                           T        V       H0       H01     AOSYM     SMH    MOLCAS    ERIS     OPER   
+
+              2       4        2.78       700     1000      520     2100   
+                                         GEOM     BASIS   MCVARS     RHF  
+
+ PROGRAMS   *        TOTAL        HF       INT
+ CPU TIMES  *         0.24      0.06      0.06
+ REAL TIME  *         0.33 SEC
+ DISK USED  *        23.90 MB      
+ **********************************************************************************************************************************
+
+ HF/6-31G* energy=   -398.622465326932
+
+        HF-SCF  
+   -398.62246533
+ **********************************************************************************************************************************
+ Molpro calculation terminated
+ Variable memory released

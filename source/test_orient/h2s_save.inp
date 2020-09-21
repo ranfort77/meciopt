@@ -1,0 +1,19 @@
+
+basis=6-31g*
+
+geometry={
+S
+Q 1 LR
+H 2 HSR 1 GM
+H 2 HSR 1 GMM 3 DD}
+
+LR = 1.9989 bohr
+SR = 4.2904 bohr
+HSR = SR/2
+GM = 90.0 degree
+GMM = 180 - GM
+DD = 180.0 degree
+
+hf
+
+---
